@@ -254,5 +254,32 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+  #logo {
+    width: 100%;
+  }
+
+  #masthead {
+    padding: 0 0 3% 0;
+  }
+
+  nav {
+    text-align: center;
+    float: none;
+    margin-top: 0;
+  }
+
+  nav a {
+    padding-top: 3%;
+  }
+
+  .main-section {
+    margin-top: 7%;
+    padding-top: 1%;
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
 
 }
