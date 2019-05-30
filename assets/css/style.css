@@ -227,6 +227,7 @@ input[type=submit] {
 
   .main-section {
     width: 67%;
+    padding-top: 1%;
   }
 
   ul {
@@ -246,10 +247,19 @@ input[type=submit] {
 
   .main-section {
     width: 98%;
+    padding-top: 1%;
   }
 
   .auth-image {
     width: 50%;
+  }
+
+  .work {
+    width: 47%;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 6%;
   }
 }
 
@@ -282,4 +292,12 @@ input[type=submit] {
     width: 100%;
   }
 
+  .work {
+    width: 100%;
+  }
+
+  .work h3 {
+    height: 20%;
+    padding-top: 5%;
+  }
 }
