@@ -236,7 +236,21 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
+  #masthead {
+    padding: 0 2% 0 2%;
+  }
 
+  #main-container {
+    padding-left: 2%;
+  }
+
+  .main-section {
+    width: 98%;
+  }
+
+  .auth-image {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 640px) {
